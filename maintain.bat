@@ -1,5 +1,5 @@
 @echo off
-echo --- Starting Poco M3 Daily Maintenance ---
+echo --- Starting Device Daily Maintenance ---
 
 :: Check if device is connected
 "%~dp0adb.exe" get-state >nul 2>&1
